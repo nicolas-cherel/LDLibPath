@@ -9,7 +9,7 @@ Install
 
 LD Lib Path has been tested for Sublime Text 3 running on Mac OS X, but I have some confidence that it could work for other combinations like Linux or Sublime Text 2.
 
-The easiest way to get this is to use [Package Control](http://wbond.net/sublime_packages/package_control) and search for "LD Lib Path".
+<i>submission to Package Control in the works</i>
 
 To manually install LD Lib Path, run
 
