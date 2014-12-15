@@ -13,11 +13,11 @@ LD Lib Path has been tested for Sublime Text 3 running on Mac OS X, but I have s
 
 To manually install LD Lib Path, run
 
-    git clone https://github.com/int3h/SublimeLDLibPath.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LDLibPath
+    git clone https://github.com/nicolas-cherel/SublimeLDLibPath.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LDLibPath
 
 for Sublime Text 2, or
 
-    git clone https://github.com/int3h/SublimeLDLibPath.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/LDLibPath
+    git clone https://github.com/nicolas-cherel/SublimeLDLibPath.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/LDLibPath
 
 for Sublime Text 3.
 
