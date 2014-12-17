@@ -1,6 +1,6 @@
 import sublime, sublime_plugin
 import platform
-from os import environ
+from os import environ, pathsep
 
 # this script relies on the ld_lib_path_original and ld_lib_path_settings globals defined below
 
@@ -19,8 +19,8 @@ def ld_lib_path():
   global ld_lib_path_original
   global ld_lib_path_settings
 
-  # concatenations with ':' (colon) join, just like the PATH environment variable
-  environ[ld_path_env_name()] = ':'.join(ld_lib_path_settings.get("ld_library_path_items", []))
+  # concatenations with platform specific path separator (eg ':' colon on UNIX, ';' semicolon on windows)
+  environ[ld_path_env_name()] = pathsep.join(ld_lib_path_settings.get("ld_library_path_items", []))
 
 def plugin_loaded():
   global ld_lib_path_original
